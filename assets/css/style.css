@@ -493,7 +493,67 @@ body {
     }
 }
 
-/*------------------------------------------------------------------SKILLS------------------------------------------------------------------*/
+/*-----------------Hobbies--------------------*/
+.hobbies{
+    width: 100%;
+    height: auto;
+    padding: 2.5rem 0rem;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container-hobbies {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hobbies-headline {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+.hobbies-headline span {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.hobbies-headline h1 {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.hobbies-headline p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-top: 1.6rem;
+    color: var(--gray);
+}
+.hobbies-headline span {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.content-hobbies-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+
+
+/*-----------------SKILLS--------------------*/
 .skills {
     width: 100%;
     height: auto;
@@ -607,18 +667,6 @@ body {
 
 .card-tech:hover img[data-tech="js"] {
     filter: sepia(1) hue-rotate(45deg) saturate(10);
-}
-
-.card-tech:hover img[data-tech="bootstrap"] {
-    filter: sepia(1) hue-rotate(265deg) saturate(8);
-}
-
-.card-tech:hover img[data-tech="wordpress"] {
-    filter: sepia(1) hue-rotate(190deg) saturate(10);
-}
-
-.card-tech:hover img[data-tech="wix"] {
-    filter: sepia(1) hue-rotate(55deg) saturate(10);
 }
 
 /*SERVICES*/
@@ -956,14 +1004,6 @@ body {
     color: #7952B3;
 }
 
-.tag-project i:hover.fa-wordpress {
-    color: #21759B;
-}
-
-.tag-project i:hover.fa-wix {
-    color: #8c8c8c;
-}
-
 .btn-project a {
     display: block;
     text-align: center;
@@ -1109,6 +1149,10 @@ body {
 
 .redes-sociais-contato a:hover .fa-instagram {
     color: #e4405f;
+}
+
+.redes-sociais-contato a:hover .fa-whatsapp {
+    color: #25D366;
 }
 
 .right-contact h2 {

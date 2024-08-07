@@ -136,6 +136,10 @@ body {
     color: #00641e;
 }
 
+.destacar {
+    color: #00641e;
+}
+
 .menu-icon {
     font-size: 1.8rem;
     z-index: 999;
@@ -451,6 +455,11 @@ body {
 .about-social a:hover .fa-instagram {
     color: #e4405f;
 }
+
+.about-social a:hover .fa-whatsapp {
+    color: #25D366;
+}
+
 
 .content-about-right {
     width: 100%;
